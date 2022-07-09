@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap');
+body, div, h1, h2, h3, p {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+}
+header {
+    width: 90%;
+    position: absolute;
+    margin: 1rem 5%;  /* unit , pixels, in, rem */
+    display: flex;
+    align-items: baseline; /*aligns along the axis of the element */
+    justify-content: space-between;
+    z-index: 120;
+    background-image: image();
+}
+.section-title {
+    color: #13a0cb;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-style: italic;
+}
+.content{
+    margin: 20px;
+}
+.about, 
+.Services,
+.Contact {
+    padding: 1.5rem 5%;
+}
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: .5;
+}
+.para1{ color: darkgreen; background-color: yellow; font-size: 30px;}
+h1{ color: red; font-style: italic; text-align: center;
+}
+.thumbnail-container:nth-child(1) { background-image: url('./../assets/images/Cooking\ with\ chef.jpg'); }
+.thumbnail-container:nth-child(2) { background-image: url('./../assets/images/Cooking\ with\ chef.jpg'); }
+.thumbnail-container:nth-child(3) { background-image: url('./../assets/images/Lazy\ River.jpg'); }
+.thumbnail-container:nth-child(4) { background-image: url('./../assets/images/Candlelight\ Dinner.jpg'); }
+.thumbnail-container:nth-child(5) { background-image: url('./../assets/images/Carnival.jpg'); 
+}
